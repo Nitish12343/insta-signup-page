@@ -1,0 +1,77 @@
+body{
+    background :linear-gradient(to right, rgb(254, 218, 117), rgb(250, 126, 30), rgb(214, 41, 118), rgb(150, 47, 191));
+    margin: -4px;
+    padding: 28px;
+}
+.container {
+     border-radius: 15px ;
+     box-shadow: -17px -10px 18px rgba(73, 80, 81 ,1);
+   background-color:#fcfcfd;
+    max-width: max-content;
+  }
+
+  .fullname{
+    display: flex;
+    flex-direction:row-reverse;
+    align-items: flex-start;
+    row-gap: 0px;
+    padding: 0px;
+    margin: 0px ;
+   
+  }
+  .mailin{
+    margin: 0px;
+    padding: 0%;
+    position: relative;
+    top: 9px;
+    left: 1px;
+
+  }
+
+  .pass{
+    position: relative;
+    top: 10px;
+    left: 0px;
+  }
+
+  .pass11{
+    position:relative;
+    top: -19px;
+}
+
+.adress{
+    position:relative;
+    top: -21px;
+}
+
+.city{
+    position:relative;
+    top: -20px;
+}
+
+.State{
+    position:relative;
+    top: -15px;
+}
+
+.zip{
+    position:relative;
+    top: -10px;
+    
+
+}
+
+.cheak{
+    position:relative;
+    top: -6px;
+    
+}
+.button{
+    position:relative;
+    top: -10px;
+    
+}
+h3{
+    display: flex;
+    justify-content: center;
+}
